@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Jun  9 07:37:58 2025
+# Process ID: 12124
+# Current directory: C:/Vivado_Projects/costas_verification
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15724 C:\Vivado_Projects\costas_verification\costas_verification.xpr
+# Log file: C:/Vivado_Projects/costas_verification/vivado.log
+# Journal file: C:/Vivado_Projects/costas_verification\vivado.jou
+# Running On        :Saurav
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :13th Gen Intel(R) Core(TM) i5-13450HX
+# CPU Frequency     :2611 MHz
+# CPU Physical cores:10
+# CPU Logical cores :16
+# Host memory       :16873 MB
+# Swap memory       :1073 MB
+# Total Virtual     :17947 MB
+# Available Virtual :9162 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Vivado_Projects/costas_verification/costas_verification.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse -scan_for_includes {{C:/Users/Saurav Kumar/Documents/vscode/python/I_data_R_64_1_0.mem} {C:/Users/Saurav Kumar/Documents/vscode/python/Q_data_R_64_1_0.mem}}
+import_files -norecurse {{C:/Users/Saurav Kumar/Documents/vscode/python/I_data_R_64_1_0.mem} {C:/Users/Saurav Kumar/Documents/vscode/python/Q_data_R_64_1_0.mem}}
+launch_simulation
+source tb_qpsk_costas_loop.tcl
+relaunch_sim
+run 51 ms
+close_sim
+launch_simulation
+source tb_qpsk_costas_loop.tcl
+relaunch_sim
+run 51 ms
+close_sim

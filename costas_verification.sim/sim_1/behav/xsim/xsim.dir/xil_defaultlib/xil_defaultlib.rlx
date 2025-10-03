@@ -1,0 +1,7 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Vivado_Projects/costas_verification/costas_verification.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+C:/Vivado_Projects/costas_verification/costas_verification.srcs/sim_1/new/tb_costas.v,1749490207,verilog,,,,tb_qpsk_costas_loop,,,,,,,,
+C:/Vivado_Projects/costas_verification/costas_verification.srcs/sources_1/new/costas.v,1749435181,verilog,,C:/Vivado_Projects/costas_verification/costas_verification.srcs/sim_1/new/tb_costas.v,,qpsk_costas_loop,,,,,,,,

@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../costas_verification.srcs/sources_1/new/costas.v" \
+"../../../../costas_verification.srcs/sim_1/new/tb_costas.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
